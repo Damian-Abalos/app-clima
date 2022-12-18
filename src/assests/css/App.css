@@ -7,5 +7,40 @@ body {
 }
 
 .input-gruop {
-    width: 60%;
+    width: 80%;
+}
+.card{
+    max-width: 80%;
+}
+
+.card-title{
+    color: black;
+    position: absolute;
+    padding: 20px;
+}
+
+.card-date{
+    color: black;
+    position: absolute;
+    padding-left: 20px;
+    top: 60px;
+
+}
+
+.card-temp{
+    color: white;
+    position: absolute;
+    padding-left: 20px;
+    bottom: 60px;
+    font-size: 45px;
+}
+
+.card-desc{
+    color: black;
+    background-color: #ffffff96;
+    position: absolute;
+    margin-left: 20px;
+    padding-right: 10px;
+    border-radius: 10px;
+    bottom: 0;
 }
