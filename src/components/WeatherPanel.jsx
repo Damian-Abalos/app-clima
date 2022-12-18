@@ -11,13 +11,13 @@ const WeatherPanel = () => {
   const [forecast, setForecast] = useState([]);
   const [loading, setLoading] = useState(false);
   const [show, setShow] = useState(false);
-  const [location, setLocation] = useState("");
+  const [location, setLocation] = useState(""); 
 
   const getLocation = async (loc) => {
     setLoading(true);
     setLocation(loc);
 
-    urlWeather = urlWeather + loc + appId;
+    urlWeather = urlWeather + location + appId;
 
     await fetch(urlWeather)
       .then((response) => {
@@ -34,7 +34,7 @@ const WeatherPanel = () => {
         setShow(false);
       });
 
-    urlForecast = urlForecast + loc + appId;
+    urlForecast = urlForecast + location + appId;
 
     await fetch(urlForecast)
       .then((response) => {
