@@ -49,3 +49,9 @@ h5{
     border-radius: 10px;
     top: 160px;
 }
+
+@media (max-width: 768px) {
+    .card-body{
+        height: 100%;
+    }
+  }
