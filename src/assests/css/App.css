@@ -15,9 +15,6 @@ h5{
 .card{
     max-width: 80%;
 }
-.card-body{
-    height: 50%;
-}
 .card-title{
     color: black;
     position: absolute;
@@ -55,8 +52,3 @@ h5{
         height: 100%;    
     }
 }
-@media (max-width: 768px) {
-    .card-body{
-        height: 100%;
-    }
-  }
