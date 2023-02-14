@@ -3,7 +3,7 @@ import Card from "./Card";
 import Form from "./Form";
 
 const WeatherPanel = () => {
-  let appId = process.env.REACT_APP_KEY_OPENWEATHER;
+  let appId = '08424562fcb4922bef8d569c7205923f';
   let urlWeather = "https://api.openweathermap.org/data/2.5/weather?q=";
   let urlForecast = "https://api.openweathermap.org/data/2.5/forecast?q=";
 
