@@ -50,6 +50,11 @@ h5{
     top: 160px;
 }
 
+@media (max-width: 990px) {
+    .img-fluid{
+        height: 100%;    
+    }
+}
 @media (max-width: 768px) {
     .card-body{
         height: 100%;
